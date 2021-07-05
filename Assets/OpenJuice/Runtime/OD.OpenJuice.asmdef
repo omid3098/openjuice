@@ -1,0 +1,30 @@
+{
+    "name": "OD.OpenJuice",
+    "rootNamespace": "",
+    "references": [
+        "Juicer.Core",
+        "UniTask",
+        "SingletonLib",
+        "NaughtyAttributes.Core"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.dbrizov.naughtyattributes",
+            "expression": "",
+            "define": "NAUGHTY_ATTRIBUTES"
+        },
+        {
+            "name": "com.coffee.ui-effect",
+            "expression": "",
+            "define": "UI_EFFECT"
+        }
+    ],
+    "noEngineReferences": false
+}
