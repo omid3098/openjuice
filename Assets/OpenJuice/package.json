@@ -1,25 +1,25 @@
 {
-  "name": "com.yoyo-studio.openjuice",
+  "name": "com.omid-saadat.openjuice",
   "displayName": "OpenJuice",
   "version": "1.0.0",
   "description": "OpenJuice tries to cover methods to juice up your unity games.",
   "unity": "2018.1",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yoyo-studio/openjuice.git"
+    "url": "git+https://github.com/omid3098/openjuice"
   },
   "dependencies": {
     "com.cysharp.unitask": "2.0.0"
   },
   "keywords": [],
   "author": {
-    "name": "YoYo Studio"
+    "name": "Omid Saadat"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/yoyo-studio/openjuice/issues"
+    "url": "https://github.com/omid3098/openjuice/issues"
   },
-  "homepage": "https://github.com/yoyo-studio/openjuice#readme",
+  "homepage": "https://github.com/omid3098/openjuice#readme",
 
   "samples": [
     {

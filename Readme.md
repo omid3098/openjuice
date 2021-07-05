@@ -15,21 +15,23 @@ because we dont do any logics, we just work with views.
 - [AudioPlayer](#AudioPlayer)
 
 ## Installation
-Requires a version of unity that supports path query parameter for git packages (Unity >= 2019.3.4f1, Unity >= 2020.1a21).  
-You can add `https://github.com/yoyo-studio/openjuice.git?path=Assets/YoYoStudio/OpenJuice` to Package Manager window.
 
-or add `"com.yoyo-studio.openjuice": "https://github.com/yoyo-studio/openjuice.git?path=Assets/YoYoStudio/OpenJuice"` to `Packages/manifest.json`.
+Requires a version of unity that supports path query parameter for git packages (Unity >= 2019.3.4f1, Unity >= 2020.1a21).  
+You can add `https://github.com/omid3098/openjuice.git?path=Assets/OpenJuice` to Package Manager window.
+
+or add `"com.omid-saadat.openjuice": "https://github.com/omid3098/openjuice.git?path=Assets/OpenJuice"` to `Packages/manifest.json`.
 
 ### Requirements
-* UniTask: [Installation Docs](https://github.com/Cysharp/UniTask#install-via-git-url)
-* Ui Effects (Optional): [Installation Docs](https://github.com/mob-sakai/UIEffect#using-git-for-unity-20183-or-later)
-* Naughty Attributes (Optional): [Installation Docs](https://github.com/dbrizov/NaughtyAttributes#installation)
 
+- UniTask: [Installation Docs](https://github.com/Cysharp/UniTask#install-via-git-url)
+- Ui Effects (Optional): [Installation Docs](https://github.com/mob-sakai/UIEffect#using-git-for-unity-20183-or-later)
+- Naughty Attributes (Optional): [Installation Docs](https://github.com/dbrizov/NaughtyAttributes#installation)
 
 If you want to install everything, add these lines to your `manifest.json` file in `dependencies` section:
+
 ```
-"com.yoyo-studio.openjuice": "https://github.com/yoyo-studio/openjuice.git?path=Assets/YoYoStudio/OpenJuice",
-"com.cysharp.unitask": "https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask", 
+"com.omid-saadat.openjuice": "https://github.com/omid3098/openjuice.git?path=Assets/OpenJuice",
+"com.cysharp.unitask": "https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask",
 "com.coffee.ui-effect": "https://github.com/mob-sakai/UIEffect.git",
 "com.dbrizov.naughtyattributes": "https://github.com/dbrizov/NaughtyAttributes.git#upm"
 ```
@@ -109,6 +111,7 @@ Simply Add [Move/Scale/Rotate]Transition component to your GameObjects and confi
 Some Ui Effects made by [Mob Sakai](https://github.com/mob-sakai)
 
 To install Ui Effects, find the manifest.json file in the Packages folder of your project and edit it to look like this:
+
 ```
 {
  "dependencies": {
@@ -165,17 +168,17 @@ Animate TextMeshPro characters separately
 More things to do:
 
 - Transitions:
-    - Move objects with tweens. ✅
-    - Stretch in move direction.
-    - Rotate in move direction.
-    - Trail or particle while moving
+  - Move objects with tweens. ✅
+  - Stretch in move direction.
+  - Rotate in move direction.
+  - Trail or particle while moving
 - Hitted things:
-    - Shake or scale some things
-    - Wobble
-    - Change color
-    - Play sound on each hit
-    - Play some particles
-    - for destroying things, scale them down or shatter them. DONT DESTROY THEM INSTANT
+  - Shake or scale some things
+  - Wobble
+  - Change color
+  - Play sound on each hit
+  - Play some particles
+  - for destroying things, scale them down or shatter them. DONT DESTROY THEM INSTANT
 - Music ✅
 - Particles => use easy effects for this ✅
 - Slow motion/Fast speed
