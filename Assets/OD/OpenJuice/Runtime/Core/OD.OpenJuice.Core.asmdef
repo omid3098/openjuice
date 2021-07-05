@@ -1,5 +1,5 @@
 {
-    "name": "Juicer.Core",
+    "name": "OD.OpenJuice.Core",
     "rootNamespace": "",
     "references": [
         "SingletonLib",

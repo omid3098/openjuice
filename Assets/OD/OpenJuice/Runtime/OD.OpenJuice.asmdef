@@ -2,10 +2,11 @@
     "name": "OD.OpenJuice",
     "rootNamespace": "",
     "references": [
-        "Juicer.Core",
         "UniTask",
         "SingletonLib",
-        "NaughtyAttributes.Core"
+        "NaughtyAttributes.Core",
+        "OD.OpenJuice.Core",
+        "UIEffect"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
