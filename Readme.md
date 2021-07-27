@@ -13,6 +13,12 @@ because we dont do any logics, we just work with views.
 - [Color](#Color)
 - [Easy Effects](#Easy-Effects)
 - [AudioPlayer](#AudioPlayer)
+- [Transition](#Transitions)
+- [UiEffects](#UiEffects)
+- [SceneTransition](#SceneTransition)
+- [ObjectPool](#ObjectPool)
+- [Frame Animator](#FrameAnimator)
+- [Text Animator](#TextAnimator)
 
 ## Installation
 
