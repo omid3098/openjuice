@@ -17,8 +17,8 @@ because we dont do any logics, we just work with views.
 - [UiEffects](#UiEffects)
 - [SceneTransition](#SceneTransition)
 - [ObjectPool](#ObjectPool)
-- [Frame Animator](#FrameAnimator)
-- [Text Animator](#TextAnimator)
+- [Frame Animator](#Frame Animator)
+- [Text Animator](#Text Animator)
 
 ## Installation
 
