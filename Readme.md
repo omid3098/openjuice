@@ -17,8 +17,8 @@ because we dont do any logics, we just work with views.
 - [UiEffects](#UiEffects)
 - [SceneTransition](#SceneTransition)
 - [ObjectPool](#ObjectPool)
-- [Frame Animator](#Frame Animator)
-- [Text Animator](#Text Animator)
+- [Frame Animator](#FrameAnimator)
+- [Text Animator](#TextAnimator)
 
 ## Installation
 
@@ -163,11 +163,11 @@ audioSourcePool = new ObjectPool<AudioSource>(1
 
 ```
 
-## Frame Animator
+## FrameAnimator
 
 Easy to use component to animate spritesheets with desired FPS
 
-## Text Animator
+## TextAnimator
 
 Animate TextMeshPro characters separately
 
