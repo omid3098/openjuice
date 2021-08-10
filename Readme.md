@@ -23,9 +23,9 @@ because we dont do any logics, we just work with views.
 ## Installation
 
 Requires a version of unity that supports path query parameter for git packages (Unity >= 2019.3.4f1, Unity >= 2020.1a21).  
-You can add `https://github.com/omid3098/openjuice.git?path=Assets/OpenJuice` to Package Manager window.
+You can add `https://github.com/omid3098/openjuice.git?path=Assets/OD/OpenJuice` to Package Manager window.
 
-or add `"com.omid-saadat.openjuice": "https://github.com/omid3098/openjuice.git?path=Assets/OpenJuice"` to `Packages/manifest.json`.
+or add `"com.omid-saadat.openjuice": "https://github.com/omid3098/openjuice.git?path=Assets/OD/OpenJuice"` to `Packages/manifest.json`.
 
 ### Requirements
 
@@ -36,7 +36,7 @@ or add `"com.omid-saadat.openjuice": "https://github.com/omid3098/openjuice.git?
 If you want to install everything, add these lines to your `manifest.json` file in `dependencies` section:
 
 ```
-"com.omid-saadat.openjuice": "https://github.com/omid3098/openjuice.git?path=Assets/OpenJuice",
+"com.omid-saadat.openjuice": "https://github.com/omid3098/openjuice.git?path=Assets/OD/OpenJuice",
 "com.cysharp.unitask": "https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask",
 "com.coffee.ui-effect": "https://github.com/mob-sakai/UIEffect.git",
 "com.dbrizov.naughtyattributes": "https://github.com/dbrizov/NaughtyAttributes.git#upm"
